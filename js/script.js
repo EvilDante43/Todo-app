@@ -25,7 +25,7 @@ function addTask() {
     completeBtn.classList.add("complete-btn");
 
     const deleteBtn = document.createElement("button");
-    deleteBtn.innerText = "❌";
+    deleteBtn.innerText = "✖";
     deleteBtn.classList.add("delete-btn");
 
     btnDiv.appendChild(completeBtn);
